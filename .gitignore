@@ -1,0 +1,8 @@
+# Distribution files of electron app
+dist/
+
+# Node modules directory
+node_modules/
+
+# Others
+npm-debug.log

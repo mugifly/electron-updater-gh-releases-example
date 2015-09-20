@@ -1,0 +1,17 @@
+{
+  "name": "electron-updater-gh-releases-example",
+  "version": "1.0.0",
+  "description": "An example app for electron-updater-gh-releases",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Masanori Ohgita",
+  "license": "Public Domain",
+  "dependencies": {
+    "electron-prebuilt": "^0.29.2",
+    "electron-updater-gh-releases": "git://github.com/mugifly/electron-updater-gh-releases",
+    "grunt": "^0.4.5",
+    "grunt-electron": "^2.0.0"
+  }
+}

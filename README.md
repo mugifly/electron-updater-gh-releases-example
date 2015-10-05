@@ -31,7 +31,7 @@ Then replace the value of *"ghAccountName"* to Your GitHub account name.
 ```js
 // Make an instance of Updater
 var updater = new Updater({
-	appName: 'example',
+	execFileName: 'example',
 	appVersion: manifest.version,
 	releaseFileNamePrefix: 'example-',
 	ghAccountName: 'YOUR-NAME',
@@ -41,7 +41,7 @@ var updater = new Updater({
 
 Then commit it to the repository.
 
-	$ git commit -a -m "Change: Releases url for me"
+	$ git commit -a -m "Change: Example update"
 
 
 ### 3. Make an release file (zip file)
